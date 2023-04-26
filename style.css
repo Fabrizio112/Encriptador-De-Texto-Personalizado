@@ -115,3 +115,40 @@ color: #495057;
     width: 90%;
 }
 
+@media(max-width:768px){
+    main{
+        flex-direction: column;
+    }
+    #side-bar__left{
+        width: 100%;
+        height: 15%;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    #side-bar__center{
+        width: 100%;
+        height: 60%;
+    }
+    #contenedor-contenido #side-bar__center-textarea{
+        width: 90%;
+        height: 85%;
+    }
+    #contenedor-contenido #side-bar__center-aviso{
+        width: 90%;
+    }
+    #contenedor-contenido #container-botones{
+        width: 90%;
+        height: 10%;
+    }
+    #side-bar__right{
+        width: 100%;
+        height: 25%;
+    }
+    #side-bar__right #container-mensaje-encriptado{
+        width: 90%;
+        height: 70%;
+    }
+    #side-bar__right #container-mensaje-encriptado #imagen-mensaje{
+        display: none;
+    }
+}
