@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/35195391d2.js" crossorigin="anonymous"></script>
+    <title>Encriptador de Mensajes</title>
+</head>
+<body>
+    <main>
+        <section id="side-bar__left">
+            <img src="./imagenes/LogoModificado.png" alt="" id="side-bar__left-logo">
+        </section>
+        <section id="side-bar__center">
+            <div id="contenedor-contenido">
+                <textarea name="" id="side-bar__center-textarea" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+                <span id="side-bar__center-aviso"><i class="fa-solid fa-circle-exclamation signo-exclamacion"></i>Solo letras minúsculas y sin acentos</span>
+                <div id="container-botones">
+                    <button id="side-bar__center-boton-encriptar" class="boton">Encriptar</button>
+                    <button id="side-bar__center-boton-desencriptar" class="boton">Desencriptar</button>
+                </div>
+            </div>
+        </section>
+        <section id="side-bar__right">
+            <div id="container-mensaje-encriptado">
+                <img src="./imagenes/MuñecoModificado.png" alt="" id="imagen-mensaje">
+                <h2 id="titulo-mensaje">Ningun mensaje fue encontrado</h2>
+                <p id="texto-mensaje">Ingresa el texto que desees encriptar o desencriptar</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

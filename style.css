@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #E5E5E5;
+    display: flex;
+}
+#side-bar__left{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+#side-bar__left #side-bar__left-logo{
+    margin-top: 2rem;
+}
+#side-bar__center{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+#side-bar__center #contenedor-contenido{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+#contenedor-contenido #side-bar__center-aviso{
+width: 75%;
+height: 5%;
+display: flex;
+align-items: center;
+font-size: 0.7rem;
+margin-bottom: 0.3rem;
+color: #495057;
+}
+#contenedor-contenido .signo-exclamacion{
+    margin-right: 0.4rem;
+    color: #495057;
+}
+#contenedor-contenido  #container-botones{
+    width: 75%;
+    display: flex;
+    align-items: center
+}
+#container-botones .boton{
+    padding: 1.2rem 0;
+    width: 47.5%;
+    border-radius: 25px;
+    font-size: 1rem;
+}
+#container-botones #side-bar__center-boton-encriptar{
+    margin-right:5%;
+    background-color: #FC0505;
+    border: none;
+    color: white
+}
+#container-botones #side-bar__center-boton-desencriptar{
+    border-color: #FC0505;
+    color: #FC0505;
+}
+#side-bar__center #side-bar__center-textarea{
+    width: 75%;
+    height: 70%;
+    font-size: 2rem;
+    background-color: transparent;
+    border: none;
+    color: #FC0505;
+}
+#side-bar__center-textarea::placeholder{
+    color:#FC0505;
+}
+#side-bar__center-textarea:focus{
+    outline: none
+}
+#side-bar__right{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#side-bar__right #container-mensaje-encriptado{
+    width: 85%;
+    height: 90%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px;
+}
+#container-mensaje-encriptado #titulo-mensaje{
+    text-align: center;
+    width: 85%;
+    margin: 1rem 0
+}
+#container-mensaje-encriptado #texto-mensaje{
+    width: 90%;
+    text-align: center;
+    font-size: 1rem;
+}
+#container-mensaje-encriptado #imagen-mensaje{
+    width: 90%;
+}
+
