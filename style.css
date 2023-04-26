@@ -41,8 +41,8 @@ width: 75%;
 height: 5%;
 display: flex;
 align-items: center;
-font-size: 0.7rem;
-margin-bottom: 0.3rem;
+font-size: 0.9rem;
+margin-bottom: 0.4rem;
 color: #495057;
 }
 #contenedor-contenido .signo-exclamacion{
@@ -150,5 +150,40 @@ color: #495057;
     }
     #side-bar__right #container-mensaje-encriptado #imagen-mensaje{
         display: none;
+    }
+}
+@media(max-width:475px){
+    main{
+        min-height: 100vh;
+    }
+    body{
+        background-color: #E5E5E5;
+    }
+    #contenedor-contenido #container-botones{
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #side-bar__center #contenedor-contenido{
+        justify-content: space-between;
+    }
+    #contenedor-contenido #side-bar__center-textarea{
+        height: 60%;
+    }
+    #contenedor-contenido #container-botones{
+        height: 35%;
+        justify-content: space-around;
+    }
+    #container-botones .boton{
+        width: 100%;
+    }
+    #side-bar__right{
+        margin: 1rem 0;
+        height: auto;
+    }
+    #side-bar__right #container-mensaje-encriptado{
+        height: auto;
+        margin: 1rem 0;
+        padding: 1rem;
     }
 }
