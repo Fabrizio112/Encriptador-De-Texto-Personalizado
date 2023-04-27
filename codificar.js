@@ -1,9 +1,12 @@
+import {agregarTextoCodificadoDecodificado} from "./visual.js";
+
 const $BOTON_ENCRIPTAR=document.querySelector("#side-bar__center-boton-encriptar");
 
 export function botonEncriptar(){
 $BOTON_ENCRIPTAR.addEventListener("click", () =>{
     let valorDelTextArea=document.querySelector("#side-bar__center-textarea").value.toLowerCase()
     let textoCodificado=codificarElCodigo(valorDelTextArea)
+    agregarTextoCodificadoDecodificado(textoCodificado)
     console.log(textoCodificado)
 })
 }

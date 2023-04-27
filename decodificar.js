@@ -1,8 +1,11 @@
+import {agregarTextoCodificadoDecodificado} from "./visual.js";
+
 const $BOTON_DESENCRIPTAR=document.querySelector("#side-bar__center-boton-desencriptar");
 export function botonDesencriptar(){
     $BOTON_DESENCRIPTAR.addEventListener("click",()=>{
         let valorDelTextArea=document.querySelector("#side-bar__center-textarea").value.toLowerCase()
         let textoDecodificado=decodificarElCodigo(valorDelTextArea)
+        agregarTextoCodificadoDecodificado(textoDecodificado)
         console.log(textoDecodificado)
     })
 }

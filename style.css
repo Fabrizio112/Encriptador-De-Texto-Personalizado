@@ -60,6 +60,9 @@ color: #495057;
     border-radius: 25px;
     font-size: 1rem;
 }
+#container-botones .boton:hover{
+    cursor: pointer;
+}
 #container-botones #side-bar__center-boton-encriptar{
     margin-right:5%;
     background-color: #FC0505;
@@ -113,6 +116,39 @@ color: #495057;
 }
 #container-mensaje-encriptado #imagen-mensaje{
     width: 90%;
+}
+#container-mensaje-encriptado #container-superior{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+#container-mensaje-encriptado #container-inferior{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container-mensaje-encriptado #boton-copiar{
+    padding: 1.2rem 0;
+    width: 85%;
+    border-radius: 25px;
+    font-size: 1rem;
+    border-color: #FC0505;
+    color: #FC0505;
+}
+
+.oculto{
+    display: none;
+}
+.codigoCD{
+    height: 100%;
+    font-size: 1.6rem;
+    width: 80%;
+    margin: 2rem;
 }
 
 @media(max-width:768px){

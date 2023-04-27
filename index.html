@@ -28,11 +28,19 @@
         </section>
         <section id="side-bar__right">
             <div id="container-mensaje-encriptado">
-                <img src="./imagenes/MuñecoModificado.png" alt="" id="imagen-mensaje">
-                <h2 id="titulo-mensaje">Ningun mensaje fue encontrado</h2>
-                <p id="texto-mensaje">Ingresa el texto que desees encriptar o desencriptar</p>
+                <div id="container-superior">
+                    <img src="./imagenes/MuñecoModificado.png" alt="" id="imagen-mensaje">
+                    <h2 id="titulo-mensaje">Ningun mensaje fue encontrado</h2>
+                    <p id="texto-mensaje">Ingresa el texto que desees encriptar o desencriptar</p>
+                    <p id="mensaje" class="oculto"></p>
+                </div>
+                <div id="container-inferior">
+                    <button id="boton-copiar" class="oculto">Copiar</button>
+                </div>
             </div>
         </section>
     </main>
+
+    <script src="index.js" type="module"> </script>
 </body>
 </html>
