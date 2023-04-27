@@ -122,8 +122,9 @@ color: #495057;
     height: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
+    margin-top: 3rem;
 }
 #container-mensaje-encriptado #container-inferior{
     width: 100%;
@@ -149,6 +150,7 @@ color: #495057;
     font-size: 1.6rem;
     width: 80%;
     margin: 2rem;
+    overflow-wrap: break-word;
 }
 
 @media(max-width:768px){
@@ -183,6 +185,9 @@ color: #495057;
     #side-bar__right #container-mensaje-encriptado{
         width: 90%;
         height: 70%;
+    }
+    #container-mensaje-encriptado #container-superior{
+        margin-top: 0;
     }
     #side-bar__right #container-mensaje-encriptado #imagen-mensaje{
         display: none;
